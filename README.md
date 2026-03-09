@@ -1,2 +1,21 @@
-# simple-java-docker
-A simple java app that runs on docker 
+                +-------------------+
+                |   Java Program    |
+                |    Main.java      |
+                +---------+---------+
+                          |
+                          v
+                 +----------------+
+                 |   Dockerfile   |
+                 | Build Image    |
+                 +--------+-------+
+                          |
+                          v
+                 +----------------+
+                 | Docker Image   |
+                 +--------+-------+
+                          |
+                          v
+                 +----------------+
+                 | Docker Container|
+                 | Runs Java App   |
+                 +----------------+
