@@ -6,27 +6,53 @@ This project demonstrates how to containerize a simple Java application using Do
 - Java
 - Docker
 - Linux
-- AWS EC2
-- Git & GitHub
+- Git
+- GitHub
 
-## Project Architecture
+## Project Structure
 
-Developer → GitHub → Docker Build → Docker Container → AWS EC2
+```
+simple-java-docker
+│
+├── Dockerfile
+├── README.md
+└── src
+    └── Main.java
+```
 
 ## Steps to Run
 
-1️⃣ Clone repository
+### 1. Clone the repository
 
-git clone https://github.com/yourusername/simple-java-docker.git
+```
+git clone https://github.com/shreyash005-source/simple-java-docker.git
+```
 
-2️⃣ Build Docker image
+### 2. Navigate to the project folder
 
+```
+cd simple-java-docker
+```
+
+### 3. Build the Docker image
+
+```
 docker build -t java-app .
+```
 
-3️⃣ Run container
+### 4. Run the Docker container
 
+```
 docker run java-app
+```
 
 ## Output
 
-Hello, Dosto follow me! Current date: <system date>
+```
+Hello, Dosto follow me ! Current date: <system date>
+```
+
+## Author
+
+Shreyash Belote  
+GitHub: https://github.com/shreyash005-source
